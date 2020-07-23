@@ -26,7 +26,6 @@ public class OSSUtil {
 //            URL url = new URL(absolutePath);
 //            HttpURLConnection urlconn = (HttpURLConnection) url.openConnection();
 //            InputStream is = urlconn.getInputStream();//通过输入流获取图片数据
-//
 //            String ENDPOINT = "http://oss-cn-szfinance.aliyuncs.com";
 //            String ACCESS_KEY_ID = "LTAI4FjvDaQ5HKCkf1BJc19R";
 //            String ACCESS_KEY_SECRET = "qdH1ku2OPk4g6IRpzfSYXFxqBuK1fu";

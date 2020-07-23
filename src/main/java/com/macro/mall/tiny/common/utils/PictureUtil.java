@@ -87,21 +87,6 @@ public class PictureUtil {
         return encoder.encodeBuffer(data);
     }
 
-    @SuppressWarnings("restriction")
-    public static String getImageStrEncoder(InputStream is) {
-        byte[] data = null;
-        try {
-            data = new byte[is.available()];
-            is.read(data);
-            is.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        BASE64Encoder encoder = new BASE64Encoder();
-        String buffer = encoder.encodeBuffer(data);
-        return buffer;
-    }
-
     public static byte[] toByteArray(InputStream input) throws IOException {
         ByteArrayOutputStream output = new ByteArrayOutputStream();
         byte[] buffer = new byte[1024*4];
