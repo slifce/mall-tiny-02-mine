@@ -181,8 +181,6 @@ public class MD5Util {
     /**
      *
      * @Description: 康泰2020加密ECB加密
-     * @author dujunkai
-     * @date 2020年3月30日
      */
     public static String createEncryption(String key,String value) {
         try {
@@ -200,8 +198,6 @@ public class MD5Util {
     /**
      *
      * @Description: 泰康2020MD5加密方式
-     * @author dujunkai
-     * @date 2020年3月30日
      */
     public static String getMD5Mac(String stSourceString,String decode) {
         String mystring = "";
@@ -219,8 +215,6 @@ public class MD5Util {
     /**
      *
      * @Description: 泰康2020MD5加密方式
-     * @author dujunkai
-     * @date 2020年3月30日
      */
     public static byte[] getMD5Mac(byte [] bySourceByte) {
         byte[] byDisByte;
@@ -241,8 +235,6 @@ public class MD5Util {
     /**
      *
      * @Description: 泰康2020ECB加密方式
-     * @author dujunkai
-     * @date 2020年3月30日
      */
     public static String bintoascii(byte[] bySourceByte) {
         int len,i;
@@ -274,8 +266,6 @@ public class MD5Util {
     /**
      *
      * @Description: ECB解密
-     * @author dujunkai
-     * @date 2020年4月2日
      */
     public static String decryptECB(String key,String value) {
         try {
